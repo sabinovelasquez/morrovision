@@ -16,7 +16,7 @@ module.exports = {
     },
     resolve: {
         alias: {
-            settings: path.join(__dirname, 'app', 'core', 'config', 'settings.' + process.env.BRAINS_ENV)
+            settings: path.join(__dirname, 'app', 'core', 'config')
         }
     },
     module: {
