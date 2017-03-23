@@ -1,3 +1,18 @@
 @import '../../css/functions';
 @import '../../css/colors';
 
+.navbar-default{
+  height: 80px;
+  border: none;
+  border-radius: 0;
+  background-color: #000;
+  .logo{
+    width: 150px;
+    img{
+      width: 100%;
+    }
+  }
+  .brand{
+    margin-top: 30px;
+  }
+}
