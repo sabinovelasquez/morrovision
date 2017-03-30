@@ -6,13 +6,24 @@
   border: none;
   border-radius: 0;
   background-color: #000;
+  .navbar-brand{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    @media screen and (max-width: 767px){
+      width: 0;
+    }
+  }
   .logo{
     width: 150px;
     img{
       width: 100%;
+      margin-right: 20px;
     }
   }
   .brand{
+    float: left;
     margin-top: 30px;
   }
 }
